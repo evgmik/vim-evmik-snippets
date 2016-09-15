@@ -3,8 +3,16 @@ priority -50
 extends tex
 
 # \mat{} Matlab formatting macro
-snippet m "\mat matlab formatting macro" br
+snippet m "\mat Matlab formatting macro" w
 \mat{${1:matlab command}} $0
+endsnippet
+
+# \WordsOfWisdom Matlab book formatting macro
+snippet wow "\WordsOfWisdom{} Matlab  book formatting macro" b
+\WordsOfWisdom{
+	${1:Words of wisdom}
+}
+$0
 endsnippet
 
 # vim:ft=snippets:

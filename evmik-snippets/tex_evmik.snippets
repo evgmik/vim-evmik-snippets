@@ -2,6 +2,27 @@ priority -50
 
 extends tex
 
+
+snippet sol "Solution environment in exam class" w
+\begin{solution}
+${1:solution}
+\end{lstlisting}
+$0
+endsnippet
+
+snippet al "align environment" w
+\begin{align}
+${1:equation}
+\end{align}
+$0
+endsnippet
+
+snippet sol "\mat Matlab formatting macro" w
+\begin{solution}
+${1:type solution}
+\end{lstlisting}
+$0
+endsnippet
 # \mat{} Matlab formatting macro
 snippet m "\mat Matlab formatting macro" w
 \mat{${1:matlab command}} $0

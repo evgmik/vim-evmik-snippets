@@ -1,0 +1,11 @@
+priority -50
+
+extends python
+
+snippet ps "Python save figure" w
+plt.rcParams.update({'font.size': 20})
+plt.savefig('${1:fname}', bbox_inches='tight', dpi=300)
+endsnippet
+
+
+# vim:ft=snippets:

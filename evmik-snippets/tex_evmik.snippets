@@ -37,4 +37,24 @@ snippet frame "frame environment" b
 \\end{frame}
 endsnippet
 
+snippet space "vertical space for solution" b
+\vspace{\stretch{${1:1}}}
+endsnippet
+
+snippet \p "question part" b
+\\part[${1:5}]
+endsnippet
+
+snippet \q "question" b
+\\question
+${1:General question inro}
+
+\\begin{parts}
+	\\part[${2:5}]
+	${3:sub part text}
+	\\vspace{\\stretch{${4:1}}}
+\\end{parts}
+endsnippet
+
+
 # vim:ft=snippets:

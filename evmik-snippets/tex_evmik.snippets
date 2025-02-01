@@ -38,6 +38,17 @@ snippet frame "frame environment" b
 \\end{frame}
 endsnippet
 
+snippet col2 "two-column environment" b
+	\\begin{columns}
+		\\begin{column}{0.5\\textwidth}
+			${1}
+		\\end{column}
+		\\begin{column}{0.5\\textwidth}
+			${0}
+		\\end{column}
+	\\end{columns}
+endsnippet
+
 snippet space "vertical space for solution" b
 \vspace{\stretch{${1:1}}}
 endsnippet
